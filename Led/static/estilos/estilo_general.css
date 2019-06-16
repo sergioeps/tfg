@@ -1,0 +1,28 @@
+body{
+	background: url("/static/img/fondo.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+h9{
+	color: brown;
+}
+#bombillaON{
+	top: 14em;
+	left: 19em;
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	background: url("/static/img/bombillaON.png") center center no-repeat;
+	background-size: 190px 150px;
+	//visibility: visible;
+}
+#bombillaOFF{
+	top: 14em;
+	left: 19em;
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	background: url("/static/img/bombillaOFF.jpg") center center no-repeat;
+	background-size: 150px 150px;
+	//visibility: visible;
+}

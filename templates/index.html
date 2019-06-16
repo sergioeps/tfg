@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 4.01//EN">
+<html lang="es">
+	<head>
+		<title>Aplicación Iluminación con Django</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'estilos/estilo_general.css' %}"/>
+	</head>
+	<body position>
+		<table border="0" width="800">
+			<tr height="200">
+				<td width="200"><center><img src="{% static 'img/uah.png' %}" alt="UAH" width='240' height='80'></center></td>
+				<td width="400"></td>
+				<td width="200"></td>
+			</tr>
+			<tr height="200">
+				<td></a></td>
+				<td><font size="5"><center>Trabajo de Fin de Grado<br>
+						<h9>Grado en Ingeniería Electrónica y Automática Industrial</h9><br>
+						Alumno: Sergio Rubio Serrano<br>
+						Tutor: Iván Garcia Daza</center></font></td>
+				<td></td>
+			</tr>
+			<tr height="200">
+				<td></td>
+				<td height="200"><center><a title="Encender Led" href="http://127.0.0.1:8000/activar_iluminacion/"><img src="{% static 'img/flechaD.png' %}" alt="Encender" width='100' height='100'></a></center></td>
+				<td></td>
+			</tr>
+		</table>	
+	</body>
+</html>
